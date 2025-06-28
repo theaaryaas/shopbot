@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Background</title>
+    <!-- Tailwind CSS CDN for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Link to your external CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="font-sans">
+    <!-- Main Shopping Background Page -->
+    <div id="main-shopping-page" class="main-shopping-page">
+        <div class="main-content-area">
+            <!-- Left-hand content -->
+            <div class="content-wrapper">
+                <h1 class="text-5xl font-bold mb-4">Welcome to Our Shopping Hub!</h1>
+                <p class="text-xl">Discover amazing deals and products.</p>
+            </div>
+        </div>
+
+        <!-- Chatbot Box in the Footer -->
+        <div class="chatbot-box">
+            <h2>SHOPBOT</h2>
+            <div class="chat-messages" id="chatMessages">
+                <!-- Chat messages will appear here -->
+                <div class="chat-message bot">Hello! I'm SHOPBOT. How can I assist you today? Try asking me about an item like "Smart Speaker" or "Stylish Watch"!</div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="chatInput" placeholder="Type your message..." />
+                <button id="sendButton">Send</button>
+            </div>
+            <div class="loading-indicator" id="loadingIndicator">Typing...</div>
+        </div>
+    </div>
+
+    <!-- Link to your external JavaScript file -->
+    <script type="module" src="script.js"></script>
+</body>
+</html>
